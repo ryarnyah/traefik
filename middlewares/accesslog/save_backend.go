@@ -75,7 +75,7 @@ type SaveNegroniFrontend struct {
 	frontendName string
 }
 
-// NewSaveFrontend creates a SaveFrontend handler.
+// NewSaveNegroniFrontend creates a SaveFrontend handler.
 func NewSaveNegroniFrontend(next negroni.Handler, frontendName string) negroni.Handler {
 	return &SaveNegroniFrontend{next, frontendName}
 }
